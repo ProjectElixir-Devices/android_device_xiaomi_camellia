@@ -334,6 +334,10 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlayCamellia \
     WifiOverlayCamellia
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # Secure Element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
