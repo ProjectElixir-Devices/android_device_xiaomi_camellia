@@ -296,6 +296,11 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
