@@ -1,0 +1,14 @@
+# Unpinned blobs from camellia-user-12-SP1A.210812.016-V14.0.6.0.TKSMIXM-release-keys
+
+dpm.img;AB
+gz.img;AB
+lk.img;AB
+logo.bin:logo.img;AB
+mcupm.img;AB
+md1img.img;AB
+pi_img.img;AB
+preloader_camellia.bin:preloader.img;AB
+scp.img;AB
+spmfw.img;AB
+sspm.img;AB
+tee.img;AB
