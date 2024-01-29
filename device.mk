@@ -322,10 +322,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.recovery.mt6833.rc
 
-# Runtime Resource (RRO) Overlays
+# Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    ApertureResTarget \
     CarrierConfigOverlayCamellia \
     FrameworksResOverlayCamellia \
     SettingsOverlayCamellia \
@@ -333,6 +334,10 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCamellia \
     TetheringConfigOverlayCamellia \
     WifiOverlayCamellia
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-aosp \
+    $(LOCAL_PATH)/overlay-elixir 
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
