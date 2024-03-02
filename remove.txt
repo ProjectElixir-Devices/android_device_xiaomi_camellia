@@ -3,3 +3,4 @@ vendor/xiaomi/camellia
 device/mediatek/sepolicy_vndr
 hardware/mediatek
 hardware/xiaomi
+packages/apps/ViPER4AndroidFX

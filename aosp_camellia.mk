@@ -14,6 +14,12 @@ $(call inherit-product, device/xiaomi/camellia/device.mk)
 # Inherit some common Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inherit from ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 # Elixir Flags
 ELIXIR_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_CALL_RECORDING := true
