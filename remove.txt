@@ -1,5 +1,6 @@
 device/xiaomi/camellia-kernel
 vendor/xiaomi/camellia
+vendor/xiaomi/camellia-firmware
 device/mediatek/sepolicy_vndr
 hardware/mediatek
 hardware/xiaomi
